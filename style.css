@@ -1,0 +1,186 @@
+body{
+	font-family: Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+li{
+	text-decoration:none;
+}
+
+h1{
+	color: #fff;
+	font-size: 65px;
+	font-family: arial, sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 12px;
+}
+
+header#container_clearfix{
+	background: url(image/champ.jpg) no-repeat center top/ cover;
+	height: 800px;
+	width: 100%;
+}
+
+header#container_clearfix img{
+	width: 150px;
+	height: 150px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+
+header .button{
+	background-color: #f09d13;
+	color: #fff;
+	border-radius: 3px;
+	display: block;
+	width: 240px;
+	padding: 20px 0px 20px 0px;
+	text-align: center;
+	text-decoration:none;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 0 auto;
+}
+
+header .button:hover{
+	background-color: green;
+}
+
+nav{
+	float: right;
+	margin-top:75px;
+}
+
+
+header nav ul{
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+header nav ul li{
+	float:left;
+	margin-right: 41px;
+	font-size: 16px;
+	text-decoration:none;
+	display: block;
+}
+
+header nav ul li a {
+	color:#fff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+header nav ul li a:hover{
+	color: #f09d13;	
+}
+
+header .first_title{
+	color: #fff;
+	font-size: 40px;
+	font-family: arial, sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 170px;
+}
+
+section{
+	margin: 0 auto;
+}
+
+section#intro{
+	background-color:#FAF0E6;
+	margin: 0;
+	padding: 1px;
+	height: 620px;
+}
+
+section header{
+	padding-top: 115px;
+	display: block;
+}
+
+section header h2{
+	font-size: 40px;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+section header p{
+	text-align:center;
+	margin-top: 0;
+}
+
+section#intro .services{
+	margin-top: 80px;
+	list-style: none;
+	padding: 0;
+	text-align: center;
+}
+
+section#intro .services li p{
+	text-align: justify;
+}
+
+section#intro .services li{
+	float: left;
+	width: 270px;
+	margin-left: 149px;
+}
+
+section#intro .services li h3{
+	font-size: 20px;
+	margin-top: 0;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+section#intro .services li p{
+	font-size: 15px;
+	margin-top: 0;
+}
+
+section#portofolio ul.gal{
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+	display: block;
+	width: 100%;
+}
+
+section#portofolio ul.gal li{
+	display: inline-block;
+	width: 33%;
+}
+
+footer{
+	background-color: black;
+	width: 100%;
+}
+
+footer{
+	color: #fff;
+	text-align: center;
+}
+
+footer img{
+	width:190px;
+}
+footer p{
+	padding:20px 0 10px 0;	
+}
+
+
+.clearfix:after{
+	content: " ";
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
